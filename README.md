@@ -5,7 +5,7 @@
 </p>
 
 ### ⚡️Quick start
-Get the value of SESSDATA and csrf from your cookies first. Then, at this part, add the values of your_SESSDATA, your_csrf, and roomid
+Get the value of SESSDATA and csrf from your cookie first. Then, set the values of your_SESSDATA, your_csrf, and roomid in simulator.py:
 ```
 def print_target_message(meg):
 	os.system(f"node ./bilibili-live-danmaku-api/stdio.js your_csrf your_SESSDATA roomid {meg}")
