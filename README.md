@@ -1,7 +1,7 @@
 # Live_broadcast_danmaku_simulator
 
 <p>
-    <img src="image/dd_center.png"/>
+    <img src="dd_center.png"/>
 </p>
 
 ### ⚡️Quick start
