@@ -3,8 +3,8 @@ from input_data import input_data
 import pdb
 
 def print_target_message(meg):
-	os.system(f"node ./bilibili-live-danmaku-api/stdio.js your_csrf your_SESSDATA roomid {meg}")
-	pdb.set_trace()
+	os.system(f"node ./bilibili-live-danmaku-api/stdio.js 6ac47994%2C1571542808%2C7561b691 338ffd665189506c8538d4d7f5fc9152 686555 {meg}")
+	# pdb.set_trace()
 	# print(f">> {meg} at {(time.time() - start_time)}")
 if __name__ == '__main__':
 	import os
